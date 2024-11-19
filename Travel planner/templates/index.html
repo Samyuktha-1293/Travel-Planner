@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("{{ url_for('static', filename='images/index.jpeg') }}");
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #EAE7DC;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            padding-top: 100px;
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .nav-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .nav-item:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        a:hover {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Welcome to the AI-Powered Travel Planner</h1>
+        <p>Your journey starts here!</p>
+    </div>
+    <nav>
+        <div class="nav-item">
+            <a href="/plan_itinerary">Plan Itinerary</a>
+        </div>
+        <div class="nav-item">
+            <a href="/accommodation">Find Accommodation</a>
+        </div>
+        <div class="nav-item">
+            <a href="/food">Suggest Food</a>
+        </div>
+        <div class="nav-item">
+            <a href="/adventures">Suggest Adventures</a>
+        </div>
+        <div class="nav-item">
+            <a href="/tourist_spots">List Tourist Spots</a>
+        </div>
+    </nav>
+</body>
+</html>

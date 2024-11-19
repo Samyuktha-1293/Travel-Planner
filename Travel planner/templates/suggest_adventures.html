@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggest Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("{{ url_for('static', filename='images/adventure.webp') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        /* Form container */
+        form {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Label and input styles */
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        /* Submit button styling */
+        input[type="submit"] {
+            background-color: #2aa8be; /*#04AA6D*/
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #60baca; /*#037a50*/
+        }
+
+        /* Link styling */
+        a {
+            display: inline-block;
+            text-align: center;
+            color: #2aa8be;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #60baca;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Suggest Adventures</h1>
+        <form action="/adventures" method="post">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" placeholder="Enter your destination">
+
+            <label for="preferences">Preferences:</label>
+            <input type="text" id="preferences" name="preferences" placeholder="Your preferences">
+
+            <input type="submit" value="Submit">
+            <a href="/">Back to Home</a>
+        </form>
+    </div>
+</body>
+</html>
