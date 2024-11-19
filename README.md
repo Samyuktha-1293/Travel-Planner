@@ -8,3 +8,11 @@ The app integrates Flask for the backend and uses the Ollama AI API to generate 
 •	Food Suggestions: Explore food and beverage options based on destination and preferences.<br>
 •	Adventure Recommendations: Discover adventure activities tailored to user interests.<br>
 •	Tourist Spots: Get a curated list of must-visit tourist attractions at the destination<br>
+
+<h2>Technologies Used</h2>
+•	Backend: Flask.<br>
+•	AI Model: Ollama for AI-based responses.<br>
+•	Frontend: HTML, CSS (rendered using Flask templates).<br>
+<h2>Prerequisites</h2>
+•	Python 3.8 or higher.<br>
+•	A code editor or IDE.<br>
