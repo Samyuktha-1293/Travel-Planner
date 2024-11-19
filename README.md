@@ -17,20 +17,23 @@ The app integrates Flask for the backend and uses the Ollama AI API to generate 
 •	Python 3.8 or higher.<br>
 •	A code editor or IDE.<br>
 
-ai-travel-planner/
-├── templates/                
-│   ├── index.html
-│   ├── plan_itinerary.html
-│   ├── itinerary.html
-│   ├── find_accommodation.html
-│   ├── accommodation.html
-│   ├── suggest_food.html
-│   ├── food.html
-│   ├── suggest_adventures.html
-│   ├── adventures.html
-│   ├── list_tourist_spots.html
-│   └── tourist_spots.html
-├── static/                   
-├── app.py                    
-├── requirements.txt          
-└── README.md                 
+<h2>Project Structure</h2>
+travel-planner/<br>
+  |-> templates/<br>
+    |-> index.html<br>
+    |-> plan_itinerary.html<br>
+    |-> itinerary.html<br>
+    |-> find_accommodation.html<br>
+    |-> accommodation.html<br>
+    |-> suggest_food.html<br>
+    |-> food.html<br>
+    |-> suggest_adventures.html<br>
+    |-> adventures.html<br>
+    |-> list_tourist_spots.html<br>
+    |-> tourist_spots.html<br>
+  |-> static/ <br>
+    |-> images/<br>
+      |-> #images in jpg format<br>
+  |-> travel_plan.py<br>
+  |-> travel_plan_groq.py<br>
+  |-> groq.txt<br>
