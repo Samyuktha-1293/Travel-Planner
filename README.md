@@ -16,3 +16,21 @@ The app integrates Flask for the backend and uses the Ollama AI API to generate 
 <h2>Prerequisites</h2>
 •	Python 3.8 or higher.<br>
 •	A code editor or IDE.<br>
+
+ai-travel-planner/
+├── templates/                
+│   ├── index.html
+│   ├── plan_itinerary.html
+│   ├── itinerary.html
+│   ├── find_accommodation.html
+│   ├── accommodation.html
+│   ├── suggest_food.html
+│   ├── food.html
+│   ├── suggest_adventures.html
+│   ├── adventures.html
+│   ├── list_tourist_spots.html
+│   └── tourist_spots.html
+├── static/                   
+├── app.py                    
+├── requirements.txt          
+└── README.md                 
