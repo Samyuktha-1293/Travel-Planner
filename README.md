@@ -18,6 +18,7 @@ The app integrates Flask for the backend and uses the Ollama AI API to generate 
 •	A code editor or IDE.<br>
 
 <h2>Project Structure</h2>
+<pre>
 travel-planner/<br>
   |-> templates/<br>
     |-> index.html<br>
@@ -37,3 +38,4 @@ travel-planner/<br>
   |-> travel_plan.py<br>
   |-> travel_plan_groq.py<br>
   |-> groq.txt<br>
+</pre>
