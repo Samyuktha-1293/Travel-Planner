@@ -1,23 +1,23 @@
 <h1>AI-Powered Travel Planner</h1>
-<pre>
+<p>
 An AI-based travel planner web application that helps users plan itineraries, find accommodations, explore food options, and discover adventure activities and tourist spots.<br>
 The app integrates Flask for the backend and uses the Ollama AI API to generate recommendations.
-</pre>
+</p>
 
 <h2>Features</h2>
 <ul type=point>
-<li>Travel Itinerary Creation: Generate detailed travel itineraries based on user preferences, budget, and travel dates.<br></li>
-<li>Accommodation Finder: Find suitable accommodations within a specified budget and preferences.<br></li>
-<li>Food Suggestions: Explore food and beverage options based on destination and preferences.<br></li>
-<li>Adventure Recommendations: Discover adventure activities tailored to user interests.<br></li>
-<li>Tourist Spots: Get a curated list of must-visit tourist attractions at the destination<br></li>
+<li><b>Travel Itinerary Creation:</b> Generate detailed travel itineraries based on user preferences, budget, and travel dates.<br></li>
+<li><b>Accommodation Finder:</b> Find suitable accommodations within a specified budget and preferences.<br></li>
+<li><b>Food Suggestions:</b> Explore food and beverage options based on destination and preferences.<br></li>
+<li><b>Adventure Recommendations:</b> Discover adventure activities tailored to user interests.<br></li>
+<li><b>Tourist Spots:</b> Get a curated list of must-visit tourist attractions at the destination<br></li>
 </ul>
 
 <h2>Technologies Used</h2>
 <ul type=point>
-<li>Backend: Flask.<br></li>
-<li>AI Model: Ollama for AI-based responses.<br></li>
-<li>Frontend: HTML, CSS (rendered using Flask templates).<br></li>
+<li><b>Backend:</b> Flask.<br></li>
+<li><b>AI Model:</b> Ollama for AI-based responses.<br></li>
+<li><b>Frontend:</b> HTML, CSS (rendered using Flask templates).<br></li>
 </ul>
 
 <h2>Prerequisites</h2>
