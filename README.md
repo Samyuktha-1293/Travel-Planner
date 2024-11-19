@@ -10,9 +10,11 @@ The app integrates Flask for the backend and uses the Ollama AI API to generate 
 •	Tourist Spots: Get a curated list of must-visit tourist attractions at the destination<br>
 
 <h2>Technologies Used</h2>
-•	Backend: Flask.<br>
-•	AI Model: Ollama for AI-based responses.<br>
-•	Frontend: HTML, CSS (rendered using Flask templates).<br>
+<ol type='1'>
+<li>Backend: Flask.<br></li>
+<li>AI Model: Ollama for AI-based responses.<br></li>
+<li>Frontend: HTML, CSS (rendered using Flask templates).<br></li>
+</ol>
 <h2>Prerequisites</h2>
 •	Python 3.8 or higher.<br>
 •	A code editor or IDE.<br>
